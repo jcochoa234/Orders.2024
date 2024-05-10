@@ -12,7 +12,7 @@ using Orders.Backend.Data;
 namespace Orders.Backend.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240509234121_AddCountriesEntity")]
+    [Migration("20240510003027_AddCountriesEntity")]
     partial class AddCountriesEntity
     {
         /// <inheritdoc />

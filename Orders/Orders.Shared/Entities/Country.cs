@@ -4,8 +4,6 @@
 
     public class Country
     {
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        //[Key]
         public Guid Id { get; set; }
 
         [Display(Name = "Pais")]
